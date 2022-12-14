@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
- 
-
 }
 
 body {
@@ -56,7 +54,7 @@ p {
     font-weight: 300;
 }
 
-.eaqacaba {
+.suzane {
     padding: 100px auto 300px auto;
     margin: 30px auto;
     background-color: #FFFFFF;
@@ -64,28 +62,11 @@ p {
     justify-content: space-between;
     align-items: center;
 }
-
-.eaqcomeca {
+.depois-viagem {
     padding: 100px auto 300px auto;
     margin: 30px auto;
     background-color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.qevalasca {
-    padding: 100px auto 300px auto;
-    margin: 30px auto;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
-}
-.quatro-vidas {
-    padding: 100px auto 300px auto;
-    margin: 30px auto;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;    
 }

@@ -70,3 +70,19 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+.segredo {
+    padding: 100px auto 300px auto;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mente-milionaria {
+    padding: 100px auto 300px auto;
+    margin: 30px auto;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

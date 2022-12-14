@@ -40,16 +40,20 @@ a {
     color: #7A6C70;
     text-decoration: none;
 }
-.conteudo {
+div {
     background-color: #FFFFFF ;
-    align-items: center;
-    text-align: center;
-    margin-top: 50px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    padding: 10px 0 100px 0;
+    padding: 10px 0 40px 0;
+    margin: auto 150px auto 150px;
+
 }
+.formulario {
+    margin-left: 150px;
+    align-items: left;
+    text-align: left;
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+ }
 h1 {
     color: #A7D9C6;
     text-align: center;
@@ -64,20 +68,33 @@ h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     font-weight: 600;
+    text-align: center;
+    margin-top: 20px;
 
 }
 label {
     color: #FA92B3;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
 
 }
 input {
     outline-color: #A7D9C6;
+    
 }
 .mensagem {
     padding: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;  
+}
+.texto {
+    height: 30px;
+    padding: 0 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
 }
 button {
     background-color: #A7D9C6;
@@ -89,4 +106,9 @@ button {
     border: #FA92B3;
     padding: 10px 20px;
     cursor: pointer;
+}
+.livros {
+    width: 200px;
+    display: inline-block;
+   margin: auto 20px auto 200px;
 }
