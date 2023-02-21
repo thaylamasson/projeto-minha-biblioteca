@@ -2,14 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Shadows Into Light', cursive;
 }
 
 body {
-    background-color: #FBDDE6;
+    background-color: #FBECCD;
     padding: 60px;
-    height: 1000px;
 }
 
 header {
@@ -18,7 +15,7 @@ header {
     right: 0;
     width: 100%;
     height: 60px;
-    background-color: #FA92B3;    
+    background-color: #F2B999;
 }
 
 ul {
@@ -26,37 +23,24 @@ ul {
     display: flex;
     align-items: center;
     height: 100%;
-    margin-right: 50px;
     float: right;
 }
 
 li {
-    margin-right: 20px;
+    margin-right: 10px;
     cursor: pointer;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
 }
 
 a {
-    color: #7A6C70;
+    color: #473E40;
     text-decoration: none;
 }
 
 .banner {
     height: 250px;
-    margin: 0 400px;
-}
-
-aside {
-    background: #FFFFFF;
-    float: right;
-    margin-top: 10%;
-    display: inline-block;
-    text-align: center;
-}
-
-.img-bio {
-    width: 200px;
+    margin: 0 30%;
 }
 
 .generos:hover {
@@ -65,38 +49,23 @@ aside {
 
 section {
     background: #FFFFFF;
-    display: inline-block;
     margin-top: 10%;
     text-align: center;
     padding: 0 0 150px 0;
 }
+
 .title {
-    background-color: #A7D9C6;
+    background-color: #F2B999;
     text-align: center;
     align-items: center;
     padding: 10px 100px 0 100px;
 }
+
 h1 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
     font-weight: 600;
     font-size: 60px;
-    color: #7A6C70;
-}
-h2 {
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 40px;
-    color: #7A6C70;
-}
-h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-}
-p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 17px;
-    letter-spacing: -1px;
+    color: #473E40;
 }
 
 .generos {
@@ -107,12 +76,12 @@ p {
     align-items: center;
     transition: 0.3s;
     cursor: pointer;
-    margin-top: 20px
+    margin-top: 50px
 }
 
 .hovertext {
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
@@ -122,8 +91,8 @@ p {
     visibility: hidden;
     opacity: 0;
     width: 150px;
-    background-color:#FA92B3;
-    color:#7A6C70;
+    background-color: #F2B999;
+    color: #473E40;
     text-align: center;
     border-radius: 5px;
     padding: 5px 5px;
@@ -142,7 +111,7 @@ p {
 
 .hovertext2 {
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
@@ -152,8 +121,8 @@ p {
     visibility: hidden;
     opacity: 0;
     width: 190px;
-    background-color: #FA92B3;
-    color:#7A6C70;
+    background-color: #F2B999;
+    color: #473E40;
     text-align: center;
     border-radius: 5px;
     padding: 5px 5px;
@@ -172,7 +141,7 @@ p {
 
 .hovertext3 {
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
@@ -182,8 +151,8 @@ p {
     visibility: hidden;
     opacity: 0;
     width: 220px;
-    background-color:#FA92B3;
-    color: #7A6C70;
+    background-color: #F2B999;
+    color: #473E40;
     text-align: center;
     border-radius: 5px;
     padding: 5px 5px;
@@ -199,9 +168,10 @@ p {
     opacity: 1;
     visibility: visible;
 }
+
 .hovertext4 {
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
@@ -211,8 +181,8 @@ p {
     visibility: hidden;
     opacity: 0;
     width: 220px;
-    background-color:#FA92B3;
-    color: #7A6C70;
+    background-color: #F2B999;
+    color: #473E40;
     text-align: center;
     border-radius: 5px;
     padding: 5px 5px;
@@ -228,9 +198,10 @@ p {
     opacity: 1;
     visibility: visible;
 }
+
 .hovertext5 {
     position: relative;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 30px;
     font-weight: 300;
 }
@@ -240,8 +211,8 @@ p {
     visibility: hidden;
     opacity: 0;
     width: 150px;
-    background-color:#FA92B3;
-    color:#7A6C70;
+    background-color: #F2B999;
+    color: #473E40;
     text-align: center;
     border-radius: 5px;
     padding: 5px 5px;
